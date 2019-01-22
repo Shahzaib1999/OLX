@@ -34,26 +34,16 @@ window.addEventListener('load', function(e) {
     if (navigator.onLine) {
       console.log('You are online!');
     } else {
-        // var offline=document.getElementById("offlineMessage").style.display="block"
-        // var cat=document.getElementById("catogries").style.display="none"
-
-        //hideLoader()
         alert("You Are Offline" )
     }
   }, false);
   
   window.addEventListener('online', function(e) {
-    // var offline=document.getElementById("offlineMessage").style.display="none"
-    // var cat=document.getElementById("catogries").style.display="block"
-
+   
     alert("You Are Online" )
   }, false);
   
   window.addEventListener('offline', function(e) {
-    // var offline=document.getElementById("offlineMessage").style.display="block"
-    //     var cat=document.getElementById("catogries").style.display="none"
-
-        // hideLoader()
        alert("You Are Offline" )
   }, false);
 
